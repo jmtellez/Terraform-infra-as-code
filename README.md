@@ -6,7 +6,7 @@
 
 ### Cloud Providers 
 
-- Azure
+- [Azure](./Azure)
     - The Azure Provider can be used to configure infrastructure in Microsoft Azure using the Azure Resource Manager API's
 
 
