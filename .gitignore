@@ -1,0 +1,6 @@
+.terraform
+*.tfvars
+*.out
+*.tfstate.*
+*.tfstate
+!azure.tfvars
