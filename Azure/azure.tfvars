@@ -13,3 +13,9 @@ asp-kind                             = "Linux"
 asp-tags = { 
     key = "value"
     }
+#################################### App Service Variables #################################
+as-name                              = "as-example"
+as-location                          = "West US"
+as-tags = {     
+    key = "value"
+    }

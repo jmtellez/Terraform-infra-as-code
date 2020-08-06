@@ -34,3 +34,15 @@ variable "asp-kind" {
 variable "asp-tags" {
   description = " Tags for each resource for tracking."
 }
+#################################### App Service Variables #################################
+variable "as-name" {
+  description = "The unique name for the resource being created."
+}
+
+variable "as-location" {
+  description ="Resource Group location."
+}
+
+variable "as-tags" {
+  description = " Tags for each resource for tracking."
+}

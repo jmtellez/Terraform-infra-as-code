@@ -28,3 +28,13 @@ module "app-service-plan" {
   kind                     = var.asp-kind
   tags                     = var.asp-tags
 }
+
+# Module to create app service
+module "app-service" {
+  source                   = "./appService"
+  name                     = var.as-name
+  location                 = var.as-location
+  resource-group           = module.resource-group.name
+  asp-name                 = module.app-service-plan.name
+  tags                     = var.as-tags
+}

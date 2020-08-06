@@ -40,6 +40,7 @@ Commands to run:
 
 - Resource Group
 - App Service Plan
+- App Service
 
 ### Resources: 
 
